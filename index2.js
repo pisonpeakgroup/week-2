@@ -20,12 +20,7 @@ var Triangle = function (a, b, c)
 
 
 
-console.log("This is my own string");                                               // a string
-{
-if err
-return console.log("still a learner please bare with us");
-else 
-return console.log("I can't believe you got angry the last time");
+function myFace(name) {
+    return "Hello " + name;
 }
-
-
+document.getElementById("Hello").innerHTML = myFunction("Joseph");
