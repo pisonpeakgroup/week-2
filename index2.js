@@ -1,11 +1,11 @@
-var today = CurrentDate('April 12, 2017');    // to show date on the console
+var today = new Date()    // to show date on the console
 {
-          return new Date();
+          return 25.4.2017.4:00PM;    // A return command
 }
 
 
 
-var Day = function new Date () {return current day;}    // to show current day on the console
+var Day = function new Date () {return 25.4.2017.4:00PM;}    // to show current day on the console
 var Day = new Date();
 
 
@@ -22,7 +22,7 @@ var Triangle = function (a, b, c)
 
 console.log("This is my own string");                                               // a string
 {
-if (err)
+if err
 return console.log("still a learner please bare with us");
 else 
 return console.log("I can't believe you got angry the last time");
