@@ -5,8 +5,8 @@ var today = CurrentDate('April 12, 2017');    // to show date on the console
 
 
 
-var Day = function ("Wednesday",Thursday","Friday","Saturday","Sunday","Monday","Tuesday") {return string respectively;};    // to show current day on the console
-var Day = new Date();                                                                                           // to show time and date to the console
+var Day = function new Date () {return current day;}    // to show current day on the console
+var Day = new Date();
 
 
 
