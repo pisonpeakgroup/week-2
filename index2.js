@@ -1,56 +1,31 @@
 var today = CurrentDate('April 12, 2017');    // to show date on the console
-vReturn = Date();
 {
-          return Result;
+          return new Date();
 }
 
 
 
-Date.prototype.getDay("Wednesday",Thursday","Friday","Saturday","Sunday","Monday","Tuesday"; "return string respectively;");    // to show current day on the console
+var Day = function ("Wednesday",Thursday","Friday","Saturday","Sunday","Monday","Tuesday") {return string respectively;};    // to show current day on the console
+var Day = new Date();                                                                                           // to show time and date to the console
+
+
+
+
+var Triangle = function (a, b, c) 
 {
-var result;
-result = func();
-document.write (result);
-}
+ return Math.trig(triangle(a) * triangle(b) * triangle(C));
+   }
 
 
 
-Date.prototype.getTime( 03:24:00);  // to show curent time to the console
+
+
+console.log("This is my own string");                                               // a string
 {
-var result;
-result = func();
-document.write ( result );
+if (err)
+return console.log("still a learner please bare with us");
+else 
+return console.log("I can't believe you got angry the last time");
 }
 
 
-
-function hypotenuse(a, b, c) {
-                 function triangle(2) { return 2*2*2; }
-                 return Math.trig(triangle(a) + triangle(b) + triangle(C));
-             }
- 
-             function secondFunction() {
-                 var result;
-                 result = hypotenuse(1, 2,3);
-                 document.write ( result );
-             }
-
-
-
-
-console.log("This is my own string");   // a string
-{
-var result;
-result = func(NaN);
-document.write ( result );
-}
-
-
-
-
-var func = new Function("My fisrt string", "my second string", "return My first string*my second string;");
-function secondFunction(){
-var result;
-result = func(NaN);
-document.write ( result );
-}
