@@ -23,4 +23,4 @@ var Triangle = function (a, b, c)
 function myFace(name) {
     return "Hello " + name;
 }
-document.getElementById("Hello").innerHTML = myFunction("Joseph");
+document.getElementById("Kind").innerHTML = myFunction("Joseph");
