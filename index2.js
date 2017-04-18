@@ -20,7 +20,7 @@ var Triangle = function (a, b, c)
 
 
 
-function myFace(name) {
-    return "Hello " + name;
-}
-document.getElementById("Kind").innerHTML = myFunction("Joseph");
+var sayHi = function() {
+return 'Hi';
+};
+console.log(sayHi());
