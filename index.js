@@ -12,8 +12,8 @@ new Date();
 
 //Calculated parameters of a triangle
 var triangle = new Object();
-triangle.side1 = 3;
-triangle.sede2 = 25;
-triangle.side3 = 25;
+triangle.side1 = 30;
+triangle.sede2 = 34;
+triangle.side3 = 34;
+console.log("This is accurate?");
 triangle.getside = Math.hypot(30, 34, 34);
-
