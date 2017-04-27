@@ -17,3 +17,30 @@ triangle.sede2 = 34;
 triangle.side3 = 34;
 console.log("This is accurate?");
 triangle.getside = Math.hypot(30, 34, 34);
+
+
+function reverseString(str) {
+    return str.split(""); 
+    }
+    reverseString("CALABAR");
+
+
+function reverseString(str) {
+    return str.split("").reverse();
+    }
+    reverseString("CALABAR");
+
+
+function reverseString(str) {
+    return str.split("").reverse().join("");
+    }
+    reverseString("CALABAR");
+
+
+
+var triangle = new Object();
+triangle.side1 = 30;
+triangle.sede2 = 34;
+triangle.side3 = 34;
+console.log("This is accurate?");
+triangle.getside = (30, 34, 34);
