@@ -1,8 +1,11 @@
 // Mentorship String
 var mentorship = new String();
-console.log("Some mentees can be very slow at learning sometimes");
-console.log("Mr Winner is really Amazing");
-console.log("This Mentorship Program has been awsome");
+var mentorshipThings = "Some mentees can be very slow at learning sometimes";
+var mentorshipThingsThree = "Mr Winner is really Amazing";
+var mentorshipThingsFour = "This Mentorship Program has been awsome"; 
+console.log(mentorshipThings);
+console.log(mentorshipThingsThree);
+console.log(mentorshipThingsFour);
 
 //date object
 var date = Date()
@@ -19,6 +22,7 @@ console.log("This is accurate?");
 triangle.getside = Math.hypot(30, 34, 34);
 
 
+//a reverse string
 function reverseString(str) {
     return str.split(""); 
     }
