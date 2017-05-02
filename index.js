@@ -2,14 +2,15 @@
 var mentorship = new String();
 var mentorshipThings = "Some mentees can be very slow at learning sometimes";
 var mentorshipThingsThree = "Mr Winner is really Amazing";
-var mentorshipThingsFour = "This Mentorship Program has been awsome"; 
+var mentorshipThingsFour = "This Mentorship Program has been awsome";
 console.log(mentorshipThings);
 console.log(mentorshipThingsThree);
 console.log(mentorshipThingsFour);
 
 //date object
 var date = Date()
-console.log("This is the current time");
+function date(){
+console.log("This is the current time");}
 new Date();
 
 
