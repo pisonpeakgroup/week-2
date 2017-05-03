@@ -1,51 +1,52 @@
-// Mentorship String
-var mentorship = new String();
-var mentorshipThings = "Some mentees can be very slow at learning sometimes";
-var mentorshipThingsThree = "Mr Winner is really Amazing";
-var mentorshipThingsFour = "This Mentorship Program has been awsome";
-console.log(mentorshipThings);
-console.log(mentorshipThingsThree);
-console.log(mentorshipThingsFour);
-
-//date object
-var date = Date()
-function date(){
-console.log("This is the current time");}
-new Date();
+//function to display date and time
+function displayCurrentDayAndTime(){
+var currentDateTime = new Date();
+return console.log(currentDateTime.toString());
+}
+displayCurrentDayAndTime();
 
 
-//Calculated parameters of a triangle
-var triangle = new Object();
-triangle.side1 = 30;
-triangle.sede2 = 34;
-triangle.side3 = 34;
-console.log("This is accurate?");
-triangle.getside = Math.hypot(30, 34, 34);
+//function to calculate parameters of a triangle
+function findAreaAndParameterOfTriangle(side1, side2, side3){
+var parameter = side1 + side2 + side3;
+return console.log(parameter);
+}
+findAreaAndParameterOfTriangle(34,30,26);
 
 
-//a reverse string
-function reverseString(str) {
-    return str.split(""); 
-    }
-    reverseString("CALABAR");
+//function to reverse a string using in-built functions
+function reverseStringGiven(CALABAR){
+var splitString = CALABAR.split('');
+var reverseString = splitString.reverse();
+var joinString = reverseString.join();
+return console.log(joinString);
+}
+reverseStringGiven('CALABAR');
 
 
-function reverseString(str) {
-    return str.split("").reverse();
-    }
-    reverseString("CALABAR");
-
-
-function reverseString(str) {
-    return str.split("").reverse().join("");
-    }
-    reverseString("CALABAR");
+//function to reverse a string using Single for-loop declaration with concatenation
+function reverseStringGiven(CALABAR){
+for (var i = CALABAR.length - 1, o = ''; i >= 0; o += CALABAR[i--]) { }
+  return o;
+}
+reverseStringGiven('CALABAR');
 
 
 
-var triangle = new Object();
-triangle.side1 = 30;
-triangle.sede2 = 34;
-triangle.side3 = 34;
-console.log("This is accurate?");
-triangle.getside = (30, 34, 34);
+//
+1. function Declaration and attach an Object
+2. var  declaration
+3. return command
+4. create a Callback/Attach a String.
+
+
+or
+
+START
+1. Function Deleration
+2. Var/Parameters Decleration
+3. Body Code
+4. return Statement
+5. Attach a global object/Built-in Object/callabck
+END
+//
